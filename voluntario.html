@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legislação</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles/voluntario.css">
+</head>
+<body>
+    <main>
+        <div class="row">
+            <div class="col m7 s12">
+                <h1>Que tal ser um volutário digital na Anaviq?</h1>
+                <!-- Primeira parte form -->
+                <div class="col m6 s12">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="input-field col s12">
+                                <input id="nome" type="text" class="validate">
+                                <label for="nome">Digite seu nome Completo</label>
+                            </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="input-field col s12">
+                                <input id="celular" type="number" class="validate">
+                                <label for="celular">Digite seu Celular</label>
+                              </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="input-field col s12">
+                                <select>
+                                  <option value="" disabled selected>Qual sua idade?</option>
+                                  <option value="De 18 a 30 anos">De 18 a 30 anos</option>
+                                  <option value="De 30 a 40 anos">De 30 a 40 anos</option>
+                                  <option value="De 40 a 50 anos">De 40 a 50 anos</option>
+                                  <option value="Acima de 50 anos">Acima de 50 anos</option>
+                                </select>
+                                <label>Idade</label>
+                              </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="input-field col s12">
+                                <select>
+                                  <option value="" disabled selected>Você é vítima de queimaduras?</option>
+                                  <option value="Sim">Sim</option>
+                                  <option value="Não">Não</option>
+                                </select>
+                                <label>É vítima de queimaduras?</label>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6 s12">
+                    <div class="col s12">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Digite seu Email</label>
+                          </div>
+                        </div>
+                        <div class="input-field col s12">
+                            <select>
+                              <option value="" disabled selected>Selecione seu estado</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                            <label>Estado</label>
+                        </div>
+                        <div class="col s12">
+                            <div class="input-field col s12">
+                                <select>
+                                  <option value="" disabled selected>Você já realizou trabalho volutário antes?</option>
+                                  <option value="Sim">Sim</option>
+                                  <option value="Não">Não</option>
+                                </select>
+                                <label>Realizou trabalho volutário antes?</label>
+                              </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="input-field col s12">
+                                <select>
+                                  <option value="" disabled selected>Como conheceu a Anaviq?</option>
+                                  <option value="Indicação">Indicação</option>
+                                  <option value="Redes Sociais">Redes Sociais</option>
+                                  <option value="Site Anaviq">Site Anaviq</option>
+                                  <option value="Atados">Atados</option>
+                                  <option value="Outros">Outro</option>
+                                </select>
+                                <label>Como conheceu?</label>
+                              </div>
+                        </div>
+                </div>
+                <!-- Segunda parte do form -->
+                <div class="col m12 s12" >
+                    <p>Você participa das redes sociais da Anaviq? Assinale quais:
+                    </p>
+                    <div class="redes-sociais">
+                        <label>
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Instagram</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Facebook (grupo)</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Facebook (perfil)</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Facebook (página)</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Twitter</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Youtube</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>LinkedIn</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span> Não participo de nenhuma rede social</span>
+                        </label><br>
+                    </div>
+                </div>
+                <!-- Terceira parte form -->
+                <div class="col m6 s12" >
+                    <div class="col s12">
+                        <div class="input-field col s12">
+                            <select>
+                              <option value="" disabled selected>Você acessa as redes por:</option>
+                              <option value="Celular">Celular</option>
+                              <option value="Computador">Computador</option>
+                              <option value="Ambos">Ambos</option>
+                            </select>
+                            <label>Por onde acessa</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <select>
+                                <option value="" disabled selected>Tem disponibilidade  de trabalho  de forma:</option>
+                                <option value="Recorrente">Recorrente - mais de uma vez, ações ou atividades diferentes</option>
+                                <option value="Pontual">pontual -  Específico para uma determinada ação  ou atividade</option> 
+                            </select>
+                            <label>Disponibilidade</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <select>
+                                <option value="" disabled selected>Se houver necessidade de fazer uma capacitação com a equipe da Anaviq, você  de dispõe?</option>
+                                <option value="sim">Sim</option>
+                                <option value="nao">Não</option>  
+                            </select>
+                            <label>Disponível para capacitação</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6 s12">
+                    <div class="input-field col s12">
+                        <select>
+                          <option value="" disabled selected>Sua disponibilidade para o trabalho é de modo:</option>
+                          <option value="Presencial">Presencial</option>
+                          <option value="A distância">A distância</option>
+                          <option value="Ambas">Ambas</option>
+                        </select>
+                        <label>Modo de disponibilidade</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <select>
+                          <option value="" disabled selected>Quanto tempo disponível diários você tem para o trabalho voluntário?</option>
+                          <option value="10 minutos">10 minutos</option>
+                          <option value="20 minutos">20 minutos</option>
+                          <option value="30 minutos">30 minutos</option>
+                          <option value="Acima de 30 minutos">Acima de 30 minutos</option>
+                        </select>
+                        <label>uanto tempo disponível diários</label>
+                    </div>
+                </div>
+                <!-- Quarta parte -->
+                <div class="col m12 s12" >
+                    <p>Quais dias da semana você tem mais disponibilidade para trabalho voluntário ?</p>
+                    <div>
+                        <label>
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Durante a semana</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Aos finais de semana</span>
+                        </label><br>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="melhor_dia" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="melhor_dia">Descreva qual melhor dia da semana." <label>
+                    </div>
+                    <p>Tem preferência de período para trabalhar?</p>
+                    <div>
+                        <label>
+                            <input type="checkbox" class="filled-in"  />
+                            <span> Manhã</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Tarde</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Noite</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span> Não tenho preferência, estou disponível a qualquer hora.</span>
+                        </label><br>
+                    </div>
+                    <div class="input-field col s12">
+                        <select>
+                            <option value="" disabled selected>Tem preferência de público para atuar:</option>
+                            <option value="">Tem preferência de público para atuar:</option>
+                            <option value="adultos">Adultos</option>
+                            <option value="crianças">Crianças</option>
+                            <option value="jovens">Jovens</option>  
+                            <option value="mulheres">Mulheres</option>  
+                            <option value="homens.">Homens</option>  
+                            <option value="nao tem preferência">não tem preferência</option>  
+                        </select>
+                        <label>preferência de público</label>
+                    </div>
+                    <p>Por que escolheu a causa das queimaduras para trabalhar?
+                    </p>
+                    <div>
+                        <label>
+                            <input type="checkbox" class="filled-in"  />
+                            <span>  É a sua própria causa, você sofreu queimaduras</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span> Você trabalha com pacientes que sofreram queimaduras</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>Você é um simpatizante da causa</span>
+                        </label><br>
+                        <label >
+                            <input type="checkbox" class="filled-in"  />
+                            <span>  Nenhuma das anteriores. Descreva abaixo:</span>
+                        </label><br>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="descreva_causa" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="descreva_causa">Descreva<label>
+                    </div>
+                    <div class="input-field col s12">
+                        <select>
+                            <option value="" disabled selected>Caso for um sobrevivente de queimaduras se dispõe a expor sua própria história nas redes sociais?</option>
+                            <option value="Sim">Sim</option>
+                            <option value="Não">Não</option>
+                            <option value="Não sou sobrevivente de queimaduras">Não sou sobrevivente de queimaduras</option>
+                        </select>
+                        <label> Se dispõe a expor sua própria história</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="como_deseja_contribuir" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="como_deseja_contribuir">Como deseja contribuir com a ANAVIQ<label>
+                    </div>
+                    
+                    <a class="waves-effect waves-light btn">REALIZAR CADASTRO</a>
+                </div>
+            </div>
+            <div class="col m5 s12">
+                <p>Participe dessa corrente do bem, pois juntos movimentamos nossa causa, dando vida aos projetos, e transformando a vida das vítimas de queimaduras</p>
+            </div>
+        </div>
+    </main>
+
+
+    <script>
+      M.AutoInit();
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems, options);
+      });
+    </script>
+    
+    <!--JavaScript at end of body for optimized loading-->
+    <body type="text/javascript" src="js/materialize.min.js"></body>
+</body>
+</html>
