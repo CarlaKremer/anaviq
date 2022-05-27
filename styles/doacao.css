@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+p,h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.dados-bancarios{
+    font-weight: 300;
+    font-size: 12px;
+}
